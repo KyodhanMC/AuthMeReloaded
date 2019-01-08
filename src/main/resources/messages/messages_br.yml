@@ -6,7 +6,7 @@
 # %username% - Substitui pelo nome do jogador RECEBENDO a mensagem
 # %displayname% - Substitui o nickname (e cores) do jogador RECEBENDO a mensagem
 
-# Registration
+# Registro
 registration:
     disabled: '&cO registro está desativado nesse servidor!'
     name_taken: '&cVocê já registrou este nome de usuário!'
@@ -16,7 +16,7 @@ registration:
     success: '&2Registrado com êxito!'
     kicked_admin_registered: 'Um administrador registrou você, por favor faça login novamente'
 
-# Password errors on registration
+# Erros de senha durante o registro
 password:
     match_error: '&cAs senhas não coincidem, verifique novamente!'
     name_in_password: '&Você não pode usar o seu nome como senha, por favor, escolha outra senha...'
@@ -32,7 +32,7 @@ login:
     login_request: '&cPor favor, faça o login com o comando "/login <senha>"'
     timeout_error: '&4Tempo limite de sessão excedido, você foi expulso do servidor, por favor, tente novamente!'
 
-# Errors
+# Erros
 error:
     denied_command: '&cPara utilizar este comando é necessário estar logado!'
     denied_chat: '&cPara utilizar o chat, você deve estar logado!'
@@ -51,12 +51,12 @@ antibot:
     auto_enabled: '&4O AntiBot foi ativado devido ao grande número de conexões!'
     auto_disabled: '&2Desativando o AntiBot passados %m minutos!'
 
-# Unregister
+# "Desresgistrar" (Apagar conta)
 unregister:
     success: '&cConta deletada!'
     command_usage: '&cUse: /unregister <senha>'
 
-# Other messages
+# Outras mensagens
 misc:
     account_not_activated: '&cA sua conta ainda não está ativada, por favor, verifique seus e-mails!'
     password_changed: '&2Senha alterada com sucesso!'
@@ -66,12 +66,12 @@ misc:
     accounts_owned_self: 'Você tem %count contas:'
     accounts_owned_other: 'O jogador %name tem %count contas:'
 
-# Session messages
+# Mensagens de sessão
 session:
     valid_session: '&2Você deslogou recentemente, então sua sessão foi resumida!'
     invalid_session: '&O seu IP foi alterado e sua sessão expirou!'
 
-# Error messages when joining
+# Mensagens de erro ao entrar
 on_join_validation:
     same_ip_online: 'Um jogador com o mesmo IP já está no servidor!'
     same_nick_online: '&4O mesmo nome de usuário já está jogando no servidor!'
@@ -81,7 +81,7 @@ on_join_validation:
     country_banned: '&4O seu país está banido neste servidor!'
     not_owner_error: 'Você não é o proprietário da conta. Por favor, escolha outro nome!'
     invalid_name_case: 'Você deve se juntar usando nome de usuário %valid, não %invalid.'
-    # TODO quick_command: 'You used a command too fast! Please, join the server again and wait more before using any command.'
+    # PARAFAZER quick_command: 'Você usou um comando muito rápido! Por favor, entre novamente no servidor e espere mais antes de usar qualquer comando.'
 
 # Email
 email:
@@ -92,10 +92,10 @@ email:
     old_email_invalid: '&cE-mail velho inválido, tente novamente!'
     invalid: '&E-mail inválido, tente novamente!'
     added: '&2Email adicionado com sucesso à sua conta!'
-    # TODO add_not_allowed: '&cAdding email was not allowed'
+    # PARAFAZER add_not_allowed: '&cA adição de email não está permitida'
     request_confirmation: '&cPor favor confirme seu endereço de email!'
     changed: '&2Troca de email com sucesso.!'
-    # TODO change_not_allowed: '&cChanging email was not allowed'
+    # PARAFAZER change_not_allowed: '&cA alteração de email não está permitida'
     email_show: '&2O seu endereço de e-mail atual é: &f%email'
     no_email_for_account: '&2Você atualmente não têm endereço de e-mail associado a esta conta.'
     already_used: '&4O endereço de e-mail já está sendo usado'
@@ -104,7 +104,7 @@ email:
     change_password_expired: 'Você não pode mais usar esse comando de recuperação de senha!'
     email_cooldown_error: '&cUm e-mail já foi enviado, espere mais %time antes de enviar novamente!'
 
-# Password recovery by email
+# Recuperação de senha por email
 recovery:
     forgot_password_hint: '&3Esqueceu sua senha? Por favor, use o comando "/email recovery <seuEmail>"'
     command_usage: '&cUse: /email recovery <Email>'
@@ -124,7 +124,7 @@ captcha:
     captcha_for_registration: 'Para se registrar você tem que resolver um código captcha, utilize o comando "/captcha %captcha_code"'
     register_captcha_valid: '&2Código correto! Agora você pode se registrar com /register!'
 
-# Verification code
+# Código de verificação
 verification:
     code_required: '&3Esse comando é importante e precisa de uma verificação via e-mail! Cheque sua caixa de entrada e siga as instruções do e-mail.'
     command_usage: '&cUso correto: /verification <código>'
@@ -134,7 +134,7 @@ verification:
     code_expired: '&3Seu código expirou! Execute outro comando importante para criar um novo.'
     email_needed: '&3Para verificar sua identidade, você precisa ligar um e-mail à sua conta!'
 
-# Time units
+# Unidades de tempo
 time:
     second: 'segundo'
     seconds: 'segundos'
@@ -145,7 +145,7 @@ time:
     day: 'dia'
     days: 'dias'
 
-# Two-factor authentication
+# Autenticação de dois fatores
 two_factor:
     code_created: '&2O seu código secreto é %code. Você pode verificá-lo a partir daqui %url'
     confirmation_required: 'Confirme seu código com /2fa confirm <código>'
